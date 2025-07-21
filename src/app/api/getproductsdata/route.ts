@@ -6,7 +6,7 @@ export async function GET(request: Request) {
     const query = searchParams.get("productName")?.toLowerCase();
 
     if (!query) {
-        return NextResponse.json({});
+        return NextResponse.json({products});
     }
 
     const filtered = products.filter(product =>
