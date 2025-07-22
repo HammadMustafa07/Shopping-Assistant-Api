@@ -37,7 +37,7 @@ In a world full of AI-powered apps and chatbots, developers often need quick acc
 ### API Endpoint
 
 ```http
-GET https://your-deployed-url/api/getproductsdata  
+GET https://shopping-assistant-api-five.vercel.app/api/getproductsdata  
 ```
 
 ### Query Parameters
